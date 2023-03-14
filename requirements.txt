@@ -1,0 +1,11 @@
+pandas==1.5.3
+streamlit==1.19.0
+torch==1.13.1
+torchvision==0.14.1
+pillow==9.4.0
+wget==3.2
+keras==2.8.0
+Keras-Preprocessing==1.1.2
+numpy==1.22.3
+tensorflow==2.8.0
+matplotlib==3.5.2
