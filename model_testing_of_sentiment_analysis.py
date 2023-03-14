@@ -44,8 +44,8 @@ dataset['sentiment'] = dataset['sentiment'].replace(4,1)
 #dataset = resample(dataset, n_samples=100000, random_state=42)
 
 # Check the distribution of data, It is a balanced dataset
-ax = dataset.groupby('sentiment').count().plot(kind='bar', title='Distribution of data',legend=False)
-ax = ax.set_xticklabels(['Negative','Positive'], rotation=0)
+#ax = dataset.groupby('sentiment').count().plot(kind='bar', title='Distribution of data',legend=False)
+#ax = ax.set_xticklabels(['Negative','Positive'], rotation=0)
 
 dataset.info()
 
