@@ -41,7 +41,7 @@ dataset = dataset[['sentiment','text']]
 dataset['sentiment'] = dataset['sentiment'].replace(4,1)
 
 # Resample the dataset to 100000
-dataset = resample(dataset, n_samples=100000, random_state=42)
+#dataset = resample(dataset, n_samples=100000, random_state=42)
 
 # Check the distribution of data, It is a balanced dataset
 ax = dataset.groupby('sentiment').count().plot(kind='bar', title='Distribution of data',legend=False)
